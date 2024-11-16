@@ -1,0 +1,131 @@
+*{
+margin: 0;
+padding: 0;
+}
+body{
+    background-color: gray;
+}
+
+.tringllecontainer {
+    margin-top: 60px;
+    margin-left: -60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* لتقسيم المساحة على عمودين متساويين */
+justify-items: center;
+}
+
+.iconbox{
+
+    width: 68px;
+    height: 68px;
+    background-color: rgb(11, 90, 157);
+    border-radius: 4px;
+}
+.icon {
+    width: 55px;
+    height: 55px;
+    
+        
+    box-shadow: 10px red;
+        border-radius: 4px;
+    position: relative;
+    transform: translate(7px, -62px);
+}
+.circlechado {
+    width: 54px;
+    height: 35px;
+    border-radius: 50%;
+    transform: translate(1px, -35px);
+    box-shadow: -20px -17px 5px rgba(216, 222, 223,8%) inset;
+}
+.text {
+    overflow: hidden;
+    
+    background-color: rgb(255, 255, 255);
+    width: 166px;
+    height: 52px;
+    transform: translate(68px, -115px);
+}
+.h4{
+    transform: translate(82px, 2px);
+}
+.p{
+    /* background-color: aqua; */
+    width: 120px;
+    height: 30px;
+    max-width: 120px;
+    overflow: hidden;
+    transform: translate(43px, 1px);
+    font-size: small;
+    color: rgb(217, 217, 217);
+    word-wrap: break-word; /* أو يمكنك استخدام overflow-wrap: break-word; */
+
+}
+a{
+    margin: -30px;
+    display: block;
+    width: fit-content;
+    height: fit-content;
+    text-decoration: none;
+    color: black;
+}
+.whatsapp{
+    background-image: linear-gradient(to bottom right,rgb(20, 161, 55), rgb(8, 135, 40));
+}
+.facebook{
+    background-image: linear-gradient(to bottom right, rgb(14, 108, 182), rgb(51, 63, 147));
+}
+.snapchat{
+    background-image: linear-gradient(to bottom right,  rgb(238, 210, 118),rgb(231, 188, 46));
+}
+.telegram{
+    background-image: linear-gradient(to bottom right,  rgb(0, 136, 204),rgb(4, 106, 156));
+}
+.x{
+    background-image: linear-gradient(to bottom right,  rgb(26, 28, 29),rgb(5, 10, 14));
+}
+.tiktok{
+    background-image: linear-gradient(to bottom right,  rgb(26, 28, 29),rgb(8, 19, 27));
+}
+.youtupe{
+    background-image: linear-gradient(to bottom right,  rgb(207, 43, 18),rgb(180, 32, 9));
+}
+.glope{
+    background-image: linear-gradient(to bottom right,  rgb(110, 138, 151),#607D8B);
+}
+.instagrm{
+    
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+}
+.inst{
+    background: linear-gradient(90deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+
+}
+
+@media (min-width: 0px) and (max-width: 500px) {
+    .tringllecontainer {
+        margin-top: 35px;
+        margin-left: -60px;
+        display: grid;
+        grid-template-columns: 1fr; /* لتقسيم المساحة على عمودين متساويين */
+    justify-items: center;
+    }
+}
+@media (min-width: 500px) and (max-width: 800px) {
+    .tringllecontainer {
+        margin-top: 35px;
+        margin-left: -60px;
+        display: grid;
+        grid-template-columns:1fr 1fr; /* لتقسيم المساحة على عمودين متساويين */
+    justify-items: center;
+    }
+}
+@media (min-width: 800px) and (max-width: 900px) {
+    .tringllecontainer {
+        margin-top: 51px;
+        margin-left: 70px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: start;
+    }
+}
